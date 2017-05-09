@@ -1,0 +1,45 @@
+body {
+  background: #000;
+  color: #fff;
+  font-family: "PT Sans";
+  font-size: 14px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+  font-family: 'Monoton';
+  text-align: center;
+  display: none;
+  text-transform: uppercase;
+}
+
+p {
+  display: none;
+}
+
+.box {
+  border: none;
+  height: 15px;
+  width: 15px;
+  float: left;
+  background: #000;
+}
+
+.row {
+  overflow: hidden;
+}
+
+button {
+  border: none;
+  background: #522;
+  color: #fff;
+}
+
+#maze {
+  margin: 0 auto;
+  width: 615px;
+  height: 615px;
+  border: 15px solid #000;
+  background: #000;
+}
